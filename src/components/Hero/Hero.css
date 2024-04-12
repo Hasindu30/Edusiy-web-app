@@ -1,0 +1,49 @@
+.hero{
+    
+    background:linear-gradient(to bottom, rgba(8,0,58,0.7), rgba(8,0,58,0.3)), url('../../assets/hero.jpg');
+    background-size: cover;
+    width: 100%;
+    height:750px;
+    
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}   
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+}
+.hero-text h1{
+    font-size: 50px;
+    
+}
+.hero-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    font-weight: 200;
+}
+.bt{
+    background: white;
+    color: rgb(247, 0, 0);
+    padding: 8px 10px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: white;
+    outline: 0;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s ease;
+  }
+.bt:hover{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    
+
+    
+}
